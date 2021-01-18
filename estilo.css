@@ -48,6 +48,14 @@ h4 {
     padding-top: 5px;
 }
 
+.itemMenu a:hover {
+    font-weight:bolder;
+}
+
+#navbar .icon {
+    display: none;
+}
+
 #submenu {
     display: flex;
     justify-content: flex-end;
@@ -62,6 +70,10 @@ h4 {
     font-size: 15pt;
     margin-left: 4pt;
     margin-right: 10px;
+}
+
+.itemSub a:hover {
+    font-weight:bolder;
 }
 
 .row:after {
