@@ -89,6 +89,14 @@ body {
     justify-content: space-between;
 }
 
+/* Responsivo*/
+@media (max-width: 500px) {
+    #destaques {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+
 .linkDestaque {
     margin-right: 10pt;
     margin-top: 30px;
