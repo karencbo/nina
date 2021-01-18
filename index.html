@@ -5,6 +5,8 @@
     <link rel="stylesheet" href="estilo.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@200;300;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 
 </head>
 
@@ -15,17 +17,19 @@
                 <img src="imagens/nina-minimenina-logo.png" />
             </div>
             <div id="menu">
-                <div id="navbar">
-                    <div class="itemMenu"> <a href="#">ENCONTRE NO LIVRO</a></div>
-                    <div class="itemMenu"><a href="#">MINI INVENÇÕES</a></div>
-                    <div class="itemMenu"><a href="#">GALERIA</a></div>
-                    <div class="itemMenu"><a href="#">SOBRE</a></div>
+                <div class="topnav" id="navbar">
+                    <a href="#">ENCONTRE</a>
+                    <a href="#">MINI INVENÇÕES</a>
+                    <a href="#">GALERIA</a>
+                    <a href="#">SOBRE</a>
+                    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                        <i class="fa fa-bars"></i>
+                      </a>
                 </div>
                 <div id="submenu">
                     <div class="itemSub"><img src="imagens/icon-youtube.gif" href="#" /><a
-                            href="#">youtube.com/minimenina</a></div>
-                    <div class="itemSub"><img src="imagens/icon-cart.gif" href="#" /><a href="#">Não tem o livro? Compre
-                            aqui!</a></div>
+                            href="#">/minimenina</a></div>
+                    <div class="itemSub"><img src="imagens/icon-cart.gif" href="#" /><a href="#">Compre o livro!</a></div>
                 </div>
             </div>
         </div>
@@ -70,6 +74,17 @@
             <button>Enviar!</button>
         </div>
     </div>
+
+<script>
+        function myFunction() {
+        var x = document.getElementById("navbar");
+        if (x.className === "topnav") {
+          x.className += " responsive";
+        } else {
+          x.className = "topnav";
+        }
+      }
+</script>
 
 </body>
 
