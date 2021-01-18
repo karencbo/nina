@@ -13,9 +13,9 @@ h4 {
 }
 
 #conteudo {
-    margin-left: 5%;
-    margin-right: 5%;
+    max-width: 1200px;
     padding: 2%;
+    margin: 0 auto;
 }
 
 #cabecalho {
