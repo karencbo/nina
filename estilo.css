@@ -46,7 +46,7 @@ h4 {
     font-size: 17pt;
     margin-left: 10pt;
     margin-right: 30px;
-    padding-top: 5px;
+    padding-top: 1px;
 }
 
 .topnav a:hover {
@@ -81,7 +81,7 @@ h4 {
 @media screen and (max-width: 900px) {
     .topnav a {display:none;}
     .topnav a.icon {
-        float:right;
+        float: right;
         display: block;
     }
 }
@@ -92,8 +92,6 @@ h4 {
         position:absolute;
         right: 0;
         top: 0;
-        padding-top: 2px;
-        padding-right: 30px;
     }
     .topnav.responsive a {
         float:none;
