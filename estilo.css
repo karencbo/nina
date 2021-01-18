@@ -75,13 +75,16 @@ h4 {
     display: flex;
 }
 
-/* Responsivo */
+/* Responsivo banner*/
 
-@media (max-width: 600px) {
+@media (max-width: 800px) {
     .row2 {
         display: flex;
-        flex-direction: column;
+        flex-wrap: wrap;
     }  
+    #textobanner {
+        flex: 100%;
+    }
 }
 
 #textobanner {
@@ -103,15 +106,10 @@ h4 {
 #destaques {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
-/* Responsivo*/
-@media (max-width: 600px) {
-    #destaques {
-      display: flex;
-      flex-direction: column;
-    }
-  }
+
 
 .linkDestaque {
     margin-right: 10pt;
