@@ -34,7 +34,7 @@ body {
     text-decoration: unset;
     font-family:  'Fira Sans', sans-serif;
     font-weight: normal;
-    font-size: 18pt;
+    font-size: 17pt;
     margin-left: 10pt;
     margin-right: 30px;
     padding-top: 5px;
@@ -90,7 +90,7 @@ body {
 }
 
 /* Responsivo*/
-@media (max-width: 500px) {
+@media (max-width: 600px) {
     #destaques {
       display: flex;
       flex-direction: column;
