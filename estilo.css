@@ -3,6 +3,14 @@ body {
     font-family: 'Fira Sans', sans-serif;
 }
 
+h1 {
+    font-size: 40pt;
+}
+
+h4 {
+    font-size: 17pt;
+    font-weight: lighter;
+}
 
 #conteudo {
     margin-left: 5%;
@@ -67,6 +75,14 @@ body {
     display: flex;
 }
 
+/* Responsivo */
+
+@media (max-width: 600px) {
+    .row2 {
+        display: flex;
+        flex-direction: column;
+    }  
+}
 
 #textobanner {
     width: 40%;
